@@ -21,7 +21,7 @@ Here, `PASSWORD` is the password for your shadowsocks server.
 
 ## Encryption Protocol
 
-This [Docker image](poe://www.poe.com/_api/key_phrase?phrase=Docker%20image&prompt=Tell%20me%20more%20about%20Docker%20image.) is configured to use a specific [encryption protocol](poe://www.poe.com/_api/key_phrase?phrase=encryption%20protocol&prompt=Tell%20me%20more%20about%20encryption%20protocol.) and does not support switching to a different `METHOD` by modifying the `METHOD` environment variable. If you need to use a different encryption protocol, you will need to modify the [Docker](poe://www.poe.com/_api/key_phrase?phrase=Docker&prompt=Tell%20me%20more%20about%20Docker.) image configuration accordingly.
+This [Docker image](poe://www.poe.com/_api/key_phrase?phrase=Docker%20image&prompt=Tell%20me%20more%20about%20Docker%20image.) is configured to use a specific [encryption protocol](poe://www.poe.com/_api/key_phrase?phrase=encryption%20protocol&prompt=Tell%20me%20more%20about%20encryption%20protocol.) `chacha20-ietf-poly1305` and does not support switching to a different `METHOD` by modifying the `METHOD` environment variable. If you need to use a different encryption protocol, you will need to modify the [Docker](poe://www.poe.com/_api/key_phrase?phrase=Docker&prompt=Tell%20me%20more%20about%20Docker.) image configuration accordingly.
 
 If you have any questions or need assistance with modifying the [Docker image configuration](poe://www.poe.com/_api/key_phrase?phrase=Docker%20image%20configuration&prompt=Tell%20me%20more%20about%20Docker%20image%20configuration.), please refer to the `v2ray-plugin` documentation or seek help from the Docker community.
 
